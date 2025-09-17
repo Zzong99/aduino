@@ -12,9 +12,9 @@ void loop() {
   delay(1000);
   for (int i = 0; i < 5; i++) {   
     digitalWrite(pin, 1); 
-    delay(200);              
+    delay(100);              
     digitalWrite(pin, 0);   
-    delay(200);
+    delay(100);
   }     
   digitalWrite(pin, 1); 
   while(1) {}
